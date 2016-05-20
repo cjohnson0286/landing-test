@@ -97,7 +97,6 @@ background-color: lightgrey;}
 
 .cases {
     background-color: #fff;
-    overflow: hidden;
     padding-bottom: 5rem;
     overflow: hidden;
 }
@@ -106,10 +105,18 @@ background-color: lightgrey;}
     margin: 3.625rem 0 3.125rem;
     font-weight: 300;
 text-align: center;}
+.flex-container {
+    display: -webkit-flex;
+    display: flex;
+    width: 900px;
+    height: 250px;
+    align-content: center;
+    }
 
 .devices {
     width: 33.3333333%;
-    justify-content: center;
+    align-content: center;
+
     -
    }
 
