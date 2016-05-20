@@ -1,0 +1,119 @@
+html {
+	box-sizing: border-box;
+}
+body {font-family: 'Roboto', sans-serif;
+font-size: 16px;
+letter-spacing: 0.03em;
+-webkit-font-smoothing: antialiased;
+}
+
+*,*:before,*:after {
+	box-sizing: inherit;
+
+}
+
+ /* Navigation Section */
+ .top-navigation {
+ 	background-color: white;
+ 	position: fixed;
+ 	width: 100%;
+ 	border-bottom: 1px solid #ddd;			
+ }
+ .content{
+ 	width: : 970px;
+ 	height: 70px;
+ 	margin: 0 auto;	
+    padding: 0px 15px;
+}
+.links {
+ 	float: right;
+ 	font-family: 'Roboto', sans-serif;
+font-size: 16px;
+color: #838994;
+letter-spacing: 0.03em;
+margin-top: 30px;
+margin-right: 50px;
+-webkit-font-smoothing: antialiased;
+ }
+ .links li{
+ 	display: inline-block;
+ 	margin-left: 25px;
+
+ }
+ .logo { height: 70px; 
+ 	margin-top: 0px;
+ 	margin-left: 200px;}
+ 	
+ 	.active{
+ 		color: #4c5058;
+ 		font-weight: 500;
+ 	}
+ 	.links li:hover {
+ 		cursor: pointer;
+ 		color: #333333;
+ 	}
+ 	/*Introduction Section*/
+
+ 	.introduction {
+ 		background-image:url('../images/first-background copy.jpg');
+ 		background-position: 0 bottom;
+ 		background-repeat: no-repeat;
+ 		background-size: cover;
+ 		height: 45.938rem;
+ 		overflow: auto;		
+ 	}
+ 	.introduction .content {
+    text-align:center;
+ 	color: white;
+ 	padding: 0 0.938rem;
+    margin: 0 auto;
+    min-width: 37.5rem;
+
+}
+h1 {font-weight: 300;
+margin-top: 17.5rem;
+    font-size: 3.125rem;}
+ 
+ h3 {margin-top: 0 auto;
+    font-size: 1.563rem;
+font-weight: 300;}
+button {
+	font-size: 1.125rem;
+    display: inline-block;
+    margin: 0 auto;
+    width: 9.688rem;
+    font-weight: bold;
+    background-color: #f15a29;
+    border-color: #f15a29;
+    text-shadow: none;
+    border-style: none;
+    border-radius: 4px;
+    padding: 1rem 1.5rem;
+    color: white;  
+
+}
+button:hover {cursor: pointer;
+background-color: lightgrey;}
+
+.cases {
+    background-color: #fff;
+    overflow: hidden;
+    padding-bottom: 5rem;
+    overflow: hidden;
+}
+
+ h2 {font-size: 2.75rem;
+    margin: 3.625rem 0 3.125rem;
+    font-weight: 300;
+text-align: center;}
+
+.devices {
+    width: 33.3333333%;
+    justify-content: center;
+    -
+   }
+
+    
+
+
+
