@@ -99,26 +99,37 @@ background-color: lightgrey;}
     background-color: #fff;
     padding-bottom: 5rem;
     overflow: hidden;
+    margin-top: 5rem;
 }
 
  h2 {font-size: 2.75rem;
     margin: 3.625rem 0 3.125rem;
     font-weight: 300;
-text-align: center;}
+    text-align: center;}
 .flex-container {
     display: -webkit-flex;
     display: flex;
-    width: 900px;
-    height: 250px;
-    align-content: center;
+    -webkit-justify-content: flex-end;
+    justify-content: flex-end;
+    width: 975px;
+    height: 127px;
+    padding-bottom: 0px;
+    margin-left: 525px;
     }
-
 .devices {
     width: 33.3333333%;
-    align-content: center;
-
-    -
+    float:left;
    }
+
+.caption {display: -webkit-flex;
+    display: flex;
+    -webkit-justify-content: flex-end;
+    justify-content: flex-end;
+    width: 975px;
+    height: 127px;
+ margin-left: 500px;}
+ .caption>h3 {width: 33.3333333%;
+    float:left;}
 
     
 
