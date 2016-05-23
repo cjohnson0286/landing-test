@@ -124,12 +124,13 @@ background-color: lightgrey;}
 .caption {display: -webkit-flex;
     display: flex;
     -webkit-justify-content: flex-end;
-    justify-content: flex-end;
+    justify-content: center;
     width: 975px;
     height: 127px;
  margin-left: 500px;}
  .caption>h3 {width: 33.3333333%;
-    float:left;}
+    float:left;
+margin-right: 20px;}
 
     
 
